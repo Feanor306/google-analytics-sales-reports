@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Analytics Web App</title>
+</head>
+<body>
+	
+	<div id="titleCon">
+		<h1>Analytics Web App</h1>
+	</div>
+	<div id="topButtons">
+		<div id="accCon">
+			<div class="labelCon">
+				Account: 
+			</div>
+			<div class="selCon">
+				<select id="selAcc"></select>
+			</div>
+		</div>
+		<div id="monthCon">
+			<div class="labelCon">
+				Month:
+			</div>
+			<div class="selCon">
+				<select id="selMonth"></select>
+			</div>
+		</div>
+		<div id="yearCon">
+			<div class="labelCon">
+				Year:
+			</div>
+			<div class="selCon">
+				<select id="selYear"></select>
+			</div>
+		</div>
+		<div id="authCon">
+			<button id="auth-button">Authorize</button>
+		</div>
+	</div>
+	<div id="printableCon">
+		<div id="pTitle">
+			<div id="ptText">Analytics Report for </div>
+			<div id="ptAcc"></div>
+			<div id="ptMonth"></div>
+		</div>
+	</div>
+	<div id="testOutputCon">
+		<textarea cols="80" rows="20" id="query-output"></textarea>
+	</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="/timedqueue.js"></script>
+<script src="/settings.js"></script>
+<script src="/scripts.js"></script>
+
+<script>
+	// Add an event listener to the 'auth-button'.
+	//document.getElementById('auth-button').addEventListener('click', authorize);
+	$("#auth-button").click(function(event){
+		authorize(event);
+	});
+	
+	//Init
+	InitApp();
+</script>
+
+<script src="https://apis.google.com/js/client.js?onload=authorize"></script>
+<link href="/styles.css" rel="stylesheet">
+
+</body>
+</html>

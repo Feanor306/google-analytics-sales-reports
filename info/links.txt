@@ -1,0 +1,6 @@
+//Quickstart
+https://developers.google.com/analytics/devguides/reporting/core/v3/quickstart/web-js
+
+//Metrics
+https://developers.google.com/analytics/devguides/reporting/core/v4/basics
+https://developers.google.com/analytics/devguides/reporting/core/dimsmets

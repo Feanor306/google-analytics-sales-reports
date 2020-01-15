@@ -1,0 +1,129 @@
+body
+{
+	font-family:Arial;
+}
+#titleCon, #topButtons, #testOutputCon
+{
+	width:100%;
+	float:left;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+#monthCon, #yearCon, #authCon
+{
+	width:150px;
+	height:20px;
+	float:left;
+}
+#accCon
+{
+	width:250px;
+	height:20px;
+	float:left;
+}
+.labelCon
+{
+	height:20px;
+	line-height:20px;
+	font-size:1em;
+	font-weight:bold;
+	padding-right:5px;
+	padding-left:5px;
+	float:left;
+}
+.selCon
+{
+	float:left;
+}
+#pTitle
+{
+	width:calc(100% - 10px);
+	float:left;
+	text-align:center;
+	padding:5px;
+	font-size:18px;
+	font-weight:bold;
+}
+#ptText
+{
+	width:calc(100% - 100px);
+	padding-right:100px;
+	float:left;
+	font-size:22px;
+}
+#ptAcc
+{
+	width:50%;
+	float:left;
+	text-align:right;
+}
+#ptMonth
+{
+	width:calc(50% - 10px);
+	padding-left:10px;
+	float:left;
+	text-align:left;
+}
+.pRow
+{
+	width:100%;
+	float:left;
+	height:50px;
+	padding-top:5px;
+}
+.prTitle
+{
+	width:180px;
+	float:left;
+	padding:5px;
+	text-align:left;
+	line-height:50px;
+	font-size:1.1em;
+}
+.prVal
+{
+	width:100px;
+	float:left;
+	padding:5px;
+}
+.prDiff
+{
+	width:80px;
+	float:left;
+	padding:5px;
+}
+.prvDate
+{
+	width:100%;
+	padding-top:10px;
+	height:calc(50% - 10px);
+	text-align:center;
+	font-weight:bold;
+}
+.prvVal
+{
+	width:100%;
+	padding-bottom:10px;
+	height:calc(50% - 10px);
+	text-align:center;
+}
+#printableCon
+{
+	/* width:1000px; 
+		if the rows can't fit the page when printing, add a maximum width here, or play with individual container widths
+		of pRow and all the child classes under it
+	*/
+}
+#testOutputCon{display:none;}
+
+/* Remove unwanted elements for prettier print */
+@media print
+{
+	#topButtons, #titleCon, #testOutputCon
+	{
+		width:0px;
+		height:0px;
+		display:none;
+		visibility:hidden;
+	}
+}
