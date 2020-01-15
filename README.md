@@ -1,5 +1,5 @@
 # google-analytics-sales-reports
-Generates monthly printable sales reports from Google Analytics for your web shop that tracks different staticstics like PageViews, BounceRate, Revenue etc. We compare the values with last month and the same month last year and show a percentage difference positive or negative.
+Generates monthly printable sales reports from Google Analytics for your web shop that tracks different staticstics like PageViews, BounceRate, Revenue etc. We can add any Analytics metric that the Google API can serve. We compare the values with last month and the same month last year and show a percentage difference - positive or negative.
 
 1. You will need a Google Analytics account.
 
