@@ -1,5 +1,5 @@
 # google-analytics-sales-reports
-Generates monthly printable sales reports from Google Analytics for your web shop
+Generates monthly printable sales reports from Google Analytics for your web shop that tracks different staticstics like PageViews, BounceRate, Revenue etc. We compare the values with last month and the same month last year and show a percentage difference positive or negative.
 
 1. You will need a Google Analytics account.
 
@@ -24,6 +24,6 @@ SPECIAL THANKS TO BLINDMAN67 for the timedqueue.js
 
 ### FUTURE UPDATES PLANNED ###
 
-*Create a more flexible accounts/properties/profiles selection for potential different account structure
-
-*Use promises instead of timedqueue
+*Create a more flexible accounts/properties/profiles selection for potential different account structure  
+*Use promises instead of timedqueue  
+*Add colors to positive/negative difference percentage values  
