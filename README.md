@@ -20,7 +20,11 @@ Look at the info folder and the images there for more info.
 
 7. Once the report is generated, you can print it - example pdf report in the /info folder.
 
-SPECIAL THANKS TO BLINDMAN67 for the timedqueue.js
+### NOTES ###
+
+*SPECIAL THANKS TO BLINDMAN67 for the timedqueue.js  
+*Metrics that show a monetary value like Revenue use the same currency as the Google Analytics account  
+*Percentage metrics like BounceRate and Conversion rate miss the % after the value - it may be added in a future update
 
 ### FUTURE UPDATES PLANNED ###
 
