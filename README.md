@@ -22,6 +22,8 @@ Look at the info folder and the images there for more info
 
 SPECIAL THANKS TO BLINDMAN67 for the timedqueue.js
 
-FUTURE UPDATES PLANNED
+### FUTURE UPDATES PLANNED ###
+
 *Create a more flexible accounts/properties/profiles selection for potential different account structure
+
 *Use promises instead of timedqueue
