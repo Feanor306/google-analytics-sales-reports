@@ -16,7 +16,7 @@ Look at the info folder and the images there for more info
 
 5. Host the website locally at port :8080, or any other port, but remember that the Google API project should be configured with the same port
 
-6. Open AnalyticsWeb2019.html in your browser, choose an account, year and month and click Authorize and log into the Google Analytics account that you want to generate reports for
+6. Open AnalyticsWeb2019.html in your browser, choose an account, year and month, click Authorize and log into the Google Analytics account that you want to generate reports for
 
 7. Once the report is generated, you can print it - example pdf report in the /info folder
 
