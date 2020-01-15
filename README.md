@@ -4,7 +4,7 @@ Generates monthly printable sales reports from Google Analytics for your web sho
 1. You will need a Google Analytics account.
 
 2. Create the project in the Google API Console, enable the API, and create credentials.  
-https://developers.google.com/analytics/devguides/reporting/core/v3/quickstart/web-js
+https://developers.google.com/analytics/devguides/reporting/core/v3/quickstart/web-js  
 The Oauth client ID credentials should look like this: {unique-id}.apps.googleusercontent.com
 
 3. Paste the credentials into settings.js variable var CLIENT_ID = '{YOUR ID HERE}';
